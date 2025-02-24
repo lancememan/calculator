@@ -62,10 +62,10 @@ p,span {
     justify-content: space-around;
 }
 #numpadLeft .btn{
-    flex-basis: 30%;
+    flex-basis: calc(30% - 15px);
 }
 #numpadLeft {
-    flex-basis: 80%;
+    flex-basis: calc(80% + 15px);
     margin: 10px 0;
     display: flex;
     gap: 15px;
@@ -73,7 +73,7 @@ p,span {
     justify-content: space-around;    
 }
 #numpadRight {
-    flex-basis: 20%;
+    flex-basis: calc(20% + 15px);
     display: flex;
     gap: 15px;
     margin: 10px 0;
